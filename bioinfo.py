@@ -31,25 +31,25 @@ tc = 0
 tt = 0
 tg = 0
 
-aa = s_new.count("aa")
-ac = s_new.count("ac")
-at = s_new.count("at")
-ag = s_new.count("ag")
+aa = s_new.count_overlap("aa")
+ac = s_new.count_overlap("ac")
+at = s_new.count_overlap("at")
+ag = s_new.count_overlap("ag")
 
-ca = s_new.count("ca")
-cc = s_new.count("cc")
-ct = s_new.count("ct")
-cg = s_new.count("cg")
+ca = s_new.count_overlap("ca")
+cc = s_new.count_overlap("cc")
+ct = s_new.count_overlap("ct")
+cg = s_new.count_overlap("cg")
 
-ga = s_new.count("ga")
-gc = s_new.count("gc")
-gt = s_new.count("gt")
-gg = s_new.count("gg")
+ga = s_new.count_overlap("ga")
+gc = s_new.count_overlap("gc")
+gt = s_new.count_overlap("gt")
+gg = s_new.count_overlap("gg")
 
-ta = s_new.count("ta")
-tc = s_new.count("tc")
-tt = s_new.count("tt")
-tg = s_new.count("tg")
+ta = s_new.count_overlap("ta")
+tc = s_new.count_overlap("tc")
+tt = s_new.count_overlap("tt")
+tg = s_new.count_overlap("tg")
 
 print("aa: ", aa)
 print("ac: ",  ac)
