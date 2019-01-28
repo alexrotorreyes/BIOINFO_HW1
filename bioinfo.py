@@ -10,18 +10,19 @@ s_new = s + src
 
 print('seq %s is %i bases long' % ("hi", len(s)))
 print('reverse complement is %s' % s.reverse_complement())
+
 aa = 0
 ac = 0
-at = 0 
+at = 0
 ag = 0
 
 ca = 0
-cc = 0 
-ct = 0 
+cc = 0
+ct = 0
 cg = 0
 
-ga = 0 
-gc = 0 
+ga = 0
+gc = 0
 gt = 0
 gg = 0
 
@@ -30,11 +31,42 @@ tc = 0
 tt = 0
 tg = 0
 
-print("s is: " + s)
-print("\n")
-print("src is: " + src)
-print("\n")
-print("s_new is: " + s_new)
-print(ag)
-print(ac)
-print(aa)
+aa = s_new.count("aa")
+ac = s_new.count("ac")
+at = s_new.count("at")
+ag = s_new.count("ag")
+
+ca = s_new.count("ca")
+cc = s_new.count("cc")
+ct = s_new.count("ct")
+cg = s_new.count("cg")
+
+ga = s_new.count("ga")
+gc = s_new.count("gc")
+gt = s_new.count("gt")
+gg = s_new.count("gg")
+
+ta = s_new.count("ta")
+tc = s_new.count("tc")
+tt = s_new.count("tt")
+tg = s_new.count("tg")
+
+print("aa: ", aa)
+print("ac: ",  ac)
+print("at: ",  at)
+print("ag: ",  ag)
+
+print("ca: ", ca)
+print("cc: ", cc)
+print("ct: ", ct)
+print("cg: ", cg)
+
+print("ga: ", ga)
+print("gc: ", gc)
+print("gt: ", gt)
+print("gg: ", gg)
+
+print("ta: ", ta)
+print("tc: ", tc)
+print("tt: ", tt)
+print("tg: ", tg)
